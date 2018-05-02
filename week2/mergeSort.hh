@@ -5,7 +5,8 @@ class mergeSort{
     public:
         mergeSort(){};
         bool parseFile(const char*); 
-        int doSort(std::vector<int>&);
+        double doSort(std::vector<int>&, int, int);
+        std::vector<int>& getNumArray();
     private:
         std::vector<int> vNumber;
 };
